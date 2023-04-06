@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.timer {
+    margin-top: 100px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 25pt;
+    color: white;
+}
+
+.date {
+    font-weight: 600;
+}
+
+.fields-wrap {
+    display: flex;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: tomato;
+    border-radius: 20%;
+}
+
+.value {
+    font-size: 25pt;
+}
+
+.actions{
+    margin-top: 50px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.timer-btn{
+background-color: tomato;
+color: #ffffff;
+border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
